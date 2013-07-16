@@ -17,7 +17,7 @@ MAKE.decl('Arch', {
             'bem-core': {
                 type: 'git',
                 url: 'git@github.com:bem/bem-core.git',
-                branch: 'feature/js-syntax'
+                branch: 'v1'
             }
         };
 
@@ -34,7 +34,7 @@ MAKE.decl('BundleNode', {
             'bemdecl.js',
             'deps.js',
             'bemhtml',
-            'browser.js',
+            'browser.js+bemhtml',
             'css',
             'ie.css',
             'ie6.css',

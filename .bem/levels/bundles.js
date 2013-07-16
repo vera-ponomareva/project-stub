@@ -12,19 +12,21 @@ var PATH = require('path'),
 exports.getTechs = function() {
 
     return {
-        'bemjson.js'    : pjoin(PRJ_TECHS, 'bemjson.js'),
-        'bemdecl.js'    : 'bemdecl.js',
-        'deps.js'       : 'deps.js',
-        'js'            : pjoin(BEMCORE_TECHS, 'browser.js.js'),
-        'css'           : 'css',
-        'ie.css'        : 'ie.css',
-        'ie6.css'       : 'ie6.css',
-        'ie7.css'       : 'ie7.css',
-        'ie8.css'       : 'ie8.css',
-        'ie9.css'       : 'ie9.css',
+        'bemjson.js'             : pjoin(PRJ_TECHS, 'bemjson.js'),
+        'bemdecl.js'             : 'bemdecl.js',
+        'deps.js'                : 'deps.js',
+        'js'                     : pjoin(BEMCORE_TECHS, 'browser.js.js'),
+        'browser.js'             : pjoin(BEMCORE_TECHS, 'browser.js.js'),
+        'browser.js+bemhtml'     : pjoin(BEMCORE_TECHS, 'browser.js+bemhtml.js'),
+        'css'                    : 'css',
+        'ie.css'                 : 'ie.css',
+        'ie6.css'                : 'ie6.css',
+        'ie7.css'                : 'ie7.css',
+        'ie8.css'                : 'ie8.css',
+        'ie9.css'                : 'ie9.css',
 
-        'bemhtml'       : pjoin(BEMCORE_TECHS, 'bemhtml.js'),
-        'html'          : pjoin(BEMCORE_TECHS, 'html.js')
+        'bemhtml'                : pjoin(BEMCORE_TECHS, 'bemhtml.js'),
+        'html'                   : pjoin(BEMCORE_TECHS, 'html.js')
     };
 
 };
